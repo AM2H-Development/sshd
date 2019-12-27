@@ -1,7 +1,8 @@
 FROM alpine:latest
 
 ENV SSH_USER ssh
-ENV SSH_PW geheim
+ENV SSH_PW blank
+
 
 RUN apk update \
     && apk add openssh-server openssh-client openssl \
