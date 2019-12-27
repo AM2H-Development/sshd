@@ -1,4 +1,4 @@
-SSHD based on Alpine for Docker
+SSHD based on OpenSSH / Alpine for Docker
 
 run with SSH user "user" and pw "topsecret":
 * docker run -itd -p 22:2222 -e SSH_USER=user -e SSH_PW=topsecret -v /path/onHost:/shared am2h/ssh
